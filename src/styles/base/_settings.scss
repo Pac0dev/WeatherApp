@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.mt-1 {
+	margin-top: 1rem;
+}
+.mb-1 {
+	margin-bottom: 1rem;
+}
+.ml-1 {
+	margin-left: 1rem;
+}
+.mr-1 {
+	margin-right: 1rem;
+}
+.fw-500{font-weight:500}
+.fw-600{font-weight:600}
+.fw-700{font-weight:700}
+.fw-300{font-weight: 300}
+.center-text{text-align: center;}
+
+.fs-big {font-size: 9rem;}
+.fs-medium {font-size: 4rem;}
+.fs-normal {font-size: 2.25rem;}
+.fs-small {font-size: 1.125rem;}
+.fs-smallest {font-size: 1rem;}
+
+$primary: #100E1D;
+$secondary: #1E213A;
+$white: #E7E7EB;
+$gray: #A09FB1;
+$light-gray: #6E707A;
+$black-gray:#88869D;
+$yellow: #FFEC65;
+$blue: #3C47E9;
+$active: #FFF;
+$black: #000;
+
+
+.button {
+	width: 10.0625rem;
+	height: 2.5rem;
+	text-align: center;
+	border:none;
+	cursor: pointer;
+	font-weight: normal;
+	color: $white;
+}
+.circle-button {
+	border-radius: 50%;
+	border:none;
+	width: 2.5rem;
+	height: 2.5rem;
+	cursor: pointer;
+}
+.button-gray{
+	background-color: $light-gray;
+}

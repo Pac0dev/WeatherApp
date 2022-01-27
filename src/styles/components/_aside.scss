@@ -1,0 +1,64 @@
+.container {
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.aside {
+	position: relative;
+	height: 100vh;
+	min-width: 20rem;
+	min-height: 100vh;
+	background-color: $secondary;
+	background-image: url('../../assets/Cloud-background.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	.aside__header {
+		display: flex;
+		justify-content: space-between;
+		color: $white;
+	}
+}
+
+.aside__btn-location {
+	background-image: url('../../assets/icons/location.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.weather-info{
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	.weather-info__temp {
+		color: $white;
+		.small-span{
+			vertical-align: baseline;
+			font-size: 40%;
+		}
+	}
+	.weather-info__state{
+		color: $gray;
+	}
+	.weather-info__footer{
+		color: $black-gray;
+		text-align: center;
+	}
+	.weather-info__date{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3rem;
+		span{
+			margin-right: .3rem;
+		}
+	}
+	.weather-info__location {
+		background-image: url('../../assets/icons/place_white_24dp.svg');
+		background-repeat: no-repeat;
+		background-position: 2px center;
+		text-align: center;
+	}
+}
