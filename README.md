@@ -21,3 +21,7 @@
 ## Available Scripts
 
 ## to run : npm start
+
+# Example .env
+
+## REACT_APP_URL=https://cors-anywhere.herokuapp.com/www.metaweather.com/api/location/
